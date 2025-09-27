@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    /*selecionando a tag normal*/
+        nav{
+            background-color: rgb(168, 247, 247);
+        }
+    /*selecionando a tag com classe*/
+    .cor-vermelha {
+        color: red;
+    }
+    </style>
     <title>programando em html</title>
 </head>
 <body>
@@ -40,12 +50,12 @@
         <li>1,84m</li>
         <li>cabelo cacheado</li>
     </ul>
-    </nav>
-
     <br>
     <br>
     <br>
     <hr>
+    </nav>
+
 
     <footer>
     <!--Meus Contatos-->
@@ -53,9 +63,9 @@
     <a href=https://www.instagram.com/luis.hopee/?utm_source=ig_web_button_share_sheet>MEU INSTAGRAM</a>
 
     <!--Midias-->
-    <h2>Midias</h2>
+    <h2 class="cor-vermelha">Midias</h2>
     <img src="img/Captura de tela 2025-09-20 120607.png">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/EFh6kLBCXag?si=pW4-mT-Q8gwPrREf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="390" height="295" src="https://www.youtube.com/embed/EFh6kLBCXag?si=pW4-mT-Q8gwPrREf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <hr>
 
     <!--Formulario-->
@@ -69,7 +79,29 @@
     <input type="email" placeholder="seu email">
     <input type="submit" value="enviar">
     </form>
+    <br>
 
-    </footer>
+    <!--Desenho-->
+    <svg width="100" height="100">
+<circle cx="50" cy="50" r="40" stroke="black" fill="red" />
+</svg>
+<br>
+<br>
+
+
+<!--outras tags-->
+<progress value="70" max="100"></progress>
+<meter value="0.6">60%</meter>
+<time datetime="2025-09-20">27 de Setembro de 2025</time>
+<code>console.log("Olá");</code>
+<pre>
+    for i in range(5):
+    print(i)
+</pre>
+
+<!--javascript smp na parte final do documento-->
+<script>alert("bem vindo ao meu form.")</script>
+
+</footer>
 </body>
 </html>
