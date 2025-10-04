@@ -1,0 +1,113 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h2{
+    color: rgb(60, 255, 0);
+}
+nav {
+    display: flex;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    float: left;
+    background-color: transparent;
+}
+nav ul li a{
+    display: block;
+    color: rgb(0, 255, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgb(0, 47, 255);
+    font-weight: bold;
+}
+/*seletor de pseudo class*/
+nav ul li a:hover{
+    background-color: red;
+}
+/*seletor por id*/
+#uso-tabela {
+    background-color: orange;
+}
+/*seletor do filho imediato d id uso-tabela*/
+#uso-tabela h3 {
+    color: aqua;
+}
+/*estilizando a tabela*/
+#uso-tabela table thead tr {
+    background-color: blueviolet;
+    color: brown;
+}
+/*usando mais uma pseudo class para estilizar*/
+#uso-tabela table tbody tr:nth-child(odd){
+    background-color: burlywood;
+}
+#uso-tabela table tbody tr:nth-child(even){
+    background-color: deeppink;
+}
+#uso-tabela table tbody tr:hover{
+    background-color: black;
+}
+/*uso do pseudo class focus*/
+#uso-formulario form input:focus{
+    background-color: aquamarine;
+}
+/*selecionando mais um elemnto pra aplicar um estilo dnv*/
+th, td{
+    font-family: 'Courier New', Courier, monospace;
+}
+/*slecionando irmaos*/
+h3 + p {
+    color: violet;
+}
+h3 ~ p {
+    color: blueviolet;
+}
+p {
+    color: brown !important; /* Força a aplicação */
+}
+/* Iniciando as classes para o menu */
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    display: inline-block;
+    position: relative;
+}
+.menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.submenu li {
+    display: block;
+    width: 150px;
+}
+.tem-submenu:hover .submenu {
+    display: block;
+}
+.menu li a:hover {
+    background-color: #ddd;
+}
+/* Uso de Seletor por Atributo */
+p[data-detalhe] {
+    text-decoration: underline;
+}
+p[data-detalhe="linha3"] {
+    background-color: aqua;
+}
