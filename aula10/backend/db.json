@@ -1,0 +1,22 @@
+{
+  "Produtos": [
+    {
+      "id": 3,
+      "descricao": "glock",
+      "saldo": "22",
+      "preco": "30"
+    },
+    {
+      "id": 1,
+      "descricao": "og kush",
+      "saldo": "24",
+      "preco": "424"
+    },
+    {
+      "id": 2,
+      "descricao": "hhhhh",
+      "saldo": "10",
+      "preco": "10"
+    }
+  ]
+}

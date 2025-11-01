@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manutencao de produtos</title>
+</head>
+<body>
+    <header>
+        <h2>manutençao de produtos</h2>
+        <section>
+            <form action="#" method="post" name="form_prod">
+                <input type="hidden" name="id" value="null" id="id">
+                <fieldset>
+                    <legend>descricao do produto</legend>
+                    <label for="iddesc">descricao do produto</label>
+                    <input type="text" name ="descricao" id="iddesc">
+                </fieldset>
+                <fieldset>
+                    <legend>saldo</legend>
+                    <label for="idsalvo">saldo do produto</label>
+                    <input type="number" name ="saldo" id="idsaldo">
+                </fieldset>
+                <fieldset>
+                    <legend>preço do produto</legend>
+                    <label for="idpreco">preço do produto</label>
+                    <input type="number" name ="preco" id="idpreco" step="0.01">
+                </fieldset>
+                <input type="submit" value="gravar"> &nbsp;&nbsp;
+                <input type="reset" value="limpar"> 
+            </form>
+        </section>
+    </header>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/cadastro.js"></script>
+</html>
