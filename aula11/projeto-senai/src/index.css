@@ -1,10 +1,9 @@
 :root {
   --cor-fundo-header: #3F51B5;
-  --cor-fonte-comum: #ffffff;
+  --cor-fonte-header: #ffffff;
   --cor-fundo-body: #ffffff;
   --cor-fonte-body: #000000;
-  --fonte: Roboto, "Helvetica Neue", sans-serif;
-
+  --fonte: Roboto,"Helvetica Neue",sans-serif;
 }
 
 * {
